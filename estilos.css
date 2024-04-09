@@ -43,7 +43,7 @@
 
 /* Estilos para el logo */
 .logo {
-    width: 70%;
+    width: 40%;
     /* Ajusta el ancho de forma automática */
     height: auto;
     /* Ajusta la altura de forma automática */
@@ -116,7 +116,7 @@
 .containerFondoPagina p{
     margin: 7%;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     position: relative; /* Añade posicionamiento relativo */
     z-index: 1; /* Asegura que el párrafo esté encima del fondo */
@@ -150,4 +150,18 @@
         height: 150px; /* Reducir la altura del icono */
         margin-bottom: 3%; /* Reducir el espacio entre el texto y el icono */
     }
+}
+
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo transparente */
+    
+}
+
+.card {
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.5);
 }

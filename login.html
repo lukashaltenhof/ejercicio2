@@ -13,19 +13,14 @@
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="estilos.css">
-
-
 </head>
 
 <body>
     <div class="banner">
-
         <img class="background-image" src="img/fondo.jpg" alt="Background Image">
-
         <div class="logo-container">
             <img class="logo" src="img/CAOS (1).png" alt="Logo">
         </div>
-
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -35,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item" style="margin-right: 5%;">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="index_caos.html">Inicio</a>
                 </li>
                 <li class="nav-item" style="margin-right: 5%;">
                     <a class="nav-link" href="#">Noticias</a>
@@ -49,7 +44,7 @@
                         Mi Cuenta
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="login.html">Iniciar Sesión</a>
+                        <a class="dropdown-item" href="#">Iniciar Sesión</a>
                         <a class="dropdown-item" href="#">Cerrar Sesión</a>
                         <a class="dropdown-item" href="#">Crear Cuenta</a>
                     </div>
@@ -57,56 +52,33 @@
                 <li class="nav-item" style="margin-right: 5%;">
                     <a class="nav-link" href="#">Contacto</a>
                 </li>
-
             </ul>
         </div>
     </nav>
-    <div class="containerFondo">
-        <div class="row">
-            <div class="col-md-12 d-flex justify-content-left">
-                <nav class="navbar bg-body-tertiary" style="margin: 0%;">
-                    <div class="container-fluid">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar Artículo"
-                                aria-label="Buscar Artículo">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+    <div class="container" style="background-image: url(img/old-newspaper-texture-newspaper-wallpaper-generative-ai-photo.jpg); background-size: cover;">
+        <div class="row justify-content-center mt-5 text-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Iniciar Sesión</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Contraseña">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
                         </form>
                     </div>
-                </nav>
-            </div>
-
-        </div>
-        <div class="containerFondo">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h1 class="text-center" style="margin-bottom: 10px;">¿Quiénes somos?</h1>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="containerFondoPagina">
-        <div class="row">
-            <div class="col-md-12 d-flex justify-content-center">
-                <div class="imagen-fondo">
-                    <div class="transparent-box" style="margin: 10%;">
-                        <p class="text-center">
-                            Somos "Caos News", un colectivo de jóvenes estudiantes de periodismo y comunicación
-                            audiovisual.
-                            Surgimos por la insatisfacción con los medios tradicionales y buscamos ofrecer una visión
-                            fresca de las noticias en Chile y el mundo.
-                        </p>
-                    </div>
-                    <img class="img-png" src="img/iconocaos.png"
-                        style="width: 300px; height: 300px; justify-content: center; margin-bottom: 7%;">
                 </div>
             </div>
         </div>
     </div>
-
-
-
 </body>
-
 
 </html>
